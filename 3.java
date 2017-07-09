@@ -9,11 +9,11 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		char x,a,e,i,o,u;
+		char x,a,e,i,o,u,A,E,I,O,U;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter alphabet");
 		x=s.next().charAt(0);
-		if(x== 'a'||x=='e'||x=='i'||x=='o'||x=='u')
+		if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u'||x=='A'||x=='E'||x=='I'||x=='O'||x=='U');
 		{
 		System.out.println("Vowels");
 		}
